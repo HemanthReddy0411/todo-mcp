@@ -94,6 +94,16 @@ MCP Output:
 ```
 
 ---
+## TestCases
+| Endpoint | Message / Body |
+|----------|----------------|
+| `/` (POST) | `{ "action": "add", "task": "Buy groceries" }` |
+| `/` (POST) | `{ "action": "list" }` |
+| `/` (POST) | `{ "action": "complete", "index": 0 }` |
+| `/` (POST) | `{ "action": "complete", "task": "Buy groceries" }` |
+| `/` (GET) | *(no body)* |
+
+---
 
 ## 📊 Flowchart
 
